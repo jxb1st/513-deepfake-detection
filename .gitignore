@@ -1,0 +1,46 @@
+# --- macOS ---
+.DS_Store
+._*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- LaTeX build artifacts ---
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+report/main.pdf
+
+# --- Course materials (not my work) ---
+ProjectAddGuidelines.pdf
+
+# --- Submission deliverables (kept locally, not in repo) ---
+JianxuShangguan_ProjectProposal.pdf
+JianxuShangguan_ProjectProposal.pptx
+JianxuShangguan_ProjectReport.pdf
+
+# --- HuggingFace / PyTorch caches ---
+.cache/
+hf_cache/
+*.pth
+*.pt
+
+# --- Editor / IDE ---
+.idea/
+.vscode/
+*.swp
